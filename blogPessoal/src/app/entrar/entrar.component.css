@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url('https://xpinc-ecommerce.xpi.com.br/riconnect/wp-content/uploads/sites/2/2021/03/investimentos-acoes.jpg');
+
+    min-height: 625px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

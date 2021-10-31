@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url('https://www.blockmaster.com.br/wp-content/uploads/sites/7/2018/10/isl%C3%A2ndia-minera%C3%A7%C3%A3o-mbitcoin.png');
+
+    min-height: 625px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
