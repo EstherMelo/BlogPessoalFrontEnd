@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto d-flex align-items-center">
         <li class="nav-item active">
-          <img src="https://scontent.fgru6-1.fna.fbcdn.net/v/t1.6435-9/47681664_2184179661802616_7644118725393645568_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=C136SgDA8ZQAX_uz2z9&_nc_ht=scontent.fgru6-1.fna&oh=7c85cd88f1a1a697b729ef0b2f812b53&oe=61A3835E" alt="imagem do usuario" width="50px" height="50px" class="img-fluid rounded-circle">
+          <img src="{{foto}}" alt="imagem do usuario" width="50px" height="50px" class="img-fluid rounded-circle">
         </li>
         <li class="nav-item pl-3">
-            <p class="m-0 font-weight-bold text-white fs-16">Nome da usuária</p>
+            <p class="m-0 font-weight-bold text-white fs-16">Óla,{{nome}}</p>
         </li>
          <li class="nav-item pl-3">
              <a href="">
@@ -20,7 +20,7 @@
 
         <ul class="navbar-nav ml-auto d-flex align-items-center">
             <li class="nav-item pl-3">
-                <a class="m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                <a (click)='sair()' class="m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
             </li>
       </ul>
       
